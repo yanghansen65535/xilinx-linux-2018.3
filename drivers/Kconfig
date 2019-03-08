@@ -209,8 +209,10 @@ source "drivers/tee/Kconfig"
 
 source "drivers/mux/Kconfig"
 
-source "drivers/hello/Kconfig"
+source "drivers/test/hello/Kconfig"
 
-source "drivers/globalmem/Kconfig"
+source "drivers/test/globalmem/Kconfig"
+
+source "drivers/test/second/Kconfig"
 
 endmenu

@@ -1,0 +1,2 @@
+config SECOND
+	tristate "second test"

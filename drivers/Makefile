@@ -183,6 +183,8 @@ obj-$(CONFIG_FSI)		+= fsi/
 obj-$(CONFIG_TEE)		+= tee/
 obj-$(CONFIG_MULTIPLEXER)	+= mux/
 # test hello
-obj-$(CONFIG_HELLO)		+= hello/
+obj-$(CONFIG_HELLO)		+= test/hello/
 # test globalmem
-obj-$(CONFIG_GLOBAL_MEM)		+= globalmem/
+obj-$(CONFIG_GLOBAL_MEM)		+= test/globalmem/
+# test second
+obj-$(CONFIG_SECOND)		+= test/second/
