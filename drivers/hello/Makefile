@@ -1,0 +1,1 @@
+obj-$(CONFIG_HELLO)	+= hello_m.o

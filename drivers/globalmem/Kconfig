@@ -1,0 +1,2 @@
+config GLOBAL_MEM
+	tristate "globalmem test"
